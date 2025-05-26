@@ -1,0 +1,31 @@
+{
+  "name": "palkibd",
+  "version": "1.0.0",
+  "description": "This is A E-commerce website of a Gift shop based in Dhaka,Bangladesh",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "npx nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rahatji/palkibd.git"
+  },
+  "author": "Rahat",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rahatji/palkibd/issues"
+  },
+  "homepage": "https://github.com/rahatji/palkibd#readme",
+  "dependencies": {
+    "error": "^10.4.0",
+    "express": "^4.21.2",
+    "http-": "^0.2.0",
+    "mongoose": "^8.15.0"
+  },
+  "devDependencies": {
+    "morgan": "^1.10.0",
+    "nodemon": "^3.1.10"
+  }
+}

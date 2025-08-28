@@ -1,7 +1,7 @@
 const createError = require ('http-errors');
 
 function notFoundHandler(req,res,next){
-    next(createError(404, "your requested content was not found"));
+    next(createError(404, "route not found"));
 }
 
 function errorHandler(err, req, res, next) {
